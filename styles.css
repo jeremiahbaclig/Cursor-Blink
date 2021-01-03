@@ -1,0 +1,12 @@
+body {
+    font-family: Papyrus;
+}
+
+.kix-cursor {
+    -webkit-animation-iteration-count: 0 !important; 
+}
+
+.CodeMirror-cursor{
+    cursorBlinkRate: 0 !important;
+    visibility: visible !important;
+}
