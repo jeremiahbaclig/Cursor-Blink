@@ -3,7 +3,7 @@
   "description" : "Removes cursor blink in Google Docs.",
   "version": "1.0",
   "manifest_version": 2,
-  "permissions": ["activeTab"]
+  "permissions": ["https://docs.google.com/*"]
   "browser_action": {
     "default_icon": "eyeball.png"
   },
