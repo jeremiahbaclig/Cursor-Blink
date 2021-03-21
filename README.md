@@ -7,4 +7,4 @@ Chrome utilizes a class named *kix-cursor* which dictates the cursor blink rate.
 
 Extension on Chrome Web Store:
 
-```https://chrome.google.com/webstore/detail/remove-blink/fnaaokkdhakddpnkbmghogjelkakgpkg?hl=en```
+https://chrome.google.com/webstore/detail/remove-blink/fnaaokkdhakddpnkbmghogjelkakgpkg?hl=en
