@@ -6,3 +6,7 @@
     cursorBlinkRate: 0 !important;
     visibility: visible !important;
 }
+
+.cursor {
+    visibility: inherit !important;
+}
