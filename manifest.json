@@ -1,19 +1,19 @@
 {
   "name": "Remove Blink",
   "description" : "Removes cursor blink in Google Docs.",
-  "version": "1.0",
-  "manifest_version": 2,
-  "permissions": ["https://docs.google.com/*"]
-  "browser_action": {
-    "default_icon": "eyeball.png"
+  "version": "1.0.1",
+  "manifest_version": 3,
+  "host_permissions": ["https://docs.google.com/*"],
+  "icons": {
+	"16": "16.png",
+	"48": "48.png",
+   	"128": "128.png"
   },
-  "commands": {
-    "_execute_browser_action": {
-      "suggested_key": {
-        "default": "Ctrl+Shift+F",
-        "mac": "MacCtrl+Shift+F"
-      },
-      "description": "Opens blink"
+  "action": {
+    "default_icon": {
+	"16": "16.png",
+	"48": "48.png",
+	"128": "128.png"
     }
   },
   "content_scripts": [{
