@@ -7,6 +7,6 @@
     visibility: visible !important;
 }
 
-.cursor {
+.monaco-editor .cursors-layer .cursor {
     visibility: inherit !important;
 }
