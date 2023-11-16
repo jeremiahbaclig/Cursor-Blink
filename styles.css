@@ -1,12 +1,129 @@
+/* Google Docs */
 .kix-cursor {
     -webkit-animation-iteration-count: 0 !important; 
 }
 
-.CodeMirror-cursor{
+/* CodeMirror */
+.CodeMirror-cursor {
     cursorBlinkRate: 0 !important;
     visibility: visible !important;
 }
 
+/* Monaco Editor */
 .monaco-editor .cursors-layer .cursor {
     visibility: inherit !important;
+}
+
+/* Textarea */
+textarea {
+    cursorBlinkRate: 0 !important;
+    visibility: visible !important;
+}
+
+/* Input (text) */
+input[type="text"] {
+    cursorBlinkRate: 0 !important;
+    visibility: visible !important;
+}
+
+/* Input (password) */
+input[type="password"] {
+    cursorBlinkRate: 0 !important;
+    visibility: visible !important;
+}
+
+/* Input (email) */
+input[type="email"] {
+    cursorBlinkRate: 0 !important;
+    visibility: visible !important;
+}
+
+/* Input (number) */
+input[type="number"] {
+    cursorBlinkRate: 0 !important;
+    visibility: visible !important;
+}
+
+/* Input (search) */
+input[type="search"] {
+    cursorBlinkRate: 0 !important;
+    visibility: visible !important;
+}
+
+/* ContentEditable */
+[contenteditable="true"] {
+    cursorBlinkRate: 0 !important;
+    visibility: visible !important;
+}
+
+/* Ace Editor */
+.ace_cursor {
+    animation: none !important;
+    opacity: 1 !important;
+}
+
+/* TinyMCE Editor */
+.mce-cursor {
+    animation: none !important;
+    opacity: 1 !important;
+}
+
+/* Froala Editor */
+.froala-cursor {
+    animation: none !important;
+    opacity: 1 !important;
+}
+
+/* Quill Editor */
+.ql-cursor {
+    animation: none !important;
+    opacity: 1 !important;
+}
+
+/* Medium Editor */
+.medium-editor-cursor {
+    animation: none !important;
+    opacity: 1 !important;
+}
+
+/* Trix Editor */
+.trix-cursor {
+    animation: none !important;
+    opacity: 1 !important;
+}
+
+/* ContentEditable Div */
+div[contenteditable="true"] {
+    cursorBlinkRate: 0 !important;
+    visibility: visible !important;
+}
+
+/* CKEditor */
+.cke_cursor {
+    animation: none !important;
+    opacity: 1 !important;
+}
+
+/* WYSIWYG Editor */
+.wysiwyg-cursor {
+    animation: none !important;
+    opacity: 1 !important;
+}
+
+/* Summernote Editor */
+.note-cursor {
+    animation: none !important;
+    opacity: 1 !important;
+}
+
+/* Redactor Editor */
+.redactor-cursor {
+    animation: none !important;
+    opacity: 1 !important;
+}
+
+/* Any element with a specific ID */
+#custom-element-id {
+    cursorBlinkRate: 0 !important;
+    visibility: visible !important;
 }
