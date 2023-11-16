@@ -121,9 +121,3 @@ div[contenteditable="true"] {
     animation: none !important;
     opacity: 1 !important;
 }
-
-/* Any element with a specific ID */
-#custom-element-id {
-    cursorBlinkRate: 0 !important;
-    visibility: visible !important;
-}
